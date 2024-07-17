@@ -1,0 +1,56 @@
+
+
+.long1 {
+    position: relative;
+    width: 50px;
+    height: 600px;
+    background-color: black;
+    margin: 150px auto;
+}
+
+.long1::before {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+    top: -25px;
+}
+.long1::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+    bottom: -25px;
+}
+
+
+.long2 {
+    position: absolute;
+    width: 600px;
+    height: 50px;
+    background-color: black;
+    top: 420px;
+    left: 660px;
+}
+.long2::before {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+    right: -25px;
+}
+.long2::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+    left: -25px;
+}

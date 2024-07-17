@@ -1,0 +1,77 @@
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(45deg, rgb(0, 0, 11), rgb(46, 1, 46));
+    /* background-image: url(bg.jpg);
+    background-size: cover; */
+}
+
+.container {
+    position: relative;
+    background-color: wheat;
+    padding-top: 50px;
+    margin-top: 50px;
+    border: 2px solid slategray;
+    border-radius: 10px;
+    width: 600px;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#countlabel {
+    display: block;
+    text-align: center;
+    font-size: 10rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#btn-container {
+    text-align: center;
+    
+}
+
+.buttons {
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: .4s;
+}
+.buttons:hover {
+    scale: 1.01;
+}
+#decrease {
+    width: 150px;
+    height: 50px;
+    color: rgb(188, 61, 61);
+    background: transparent;
+    border: 2px solid rgb(188, 61, 61);
+    border-radius: 10px;
+}
+#decrease:hover {
+    background-color: rgb(188, 61, 61);
+    color: white;
+}
+#reset {
+    color: rgb(61, 188, 82);
+    background: transparent;
+    border: 2px solid rgb(61, 188, 82);
+    border-radius: 10px;
+}
+#reset:hover {
+    background-color: rgb(61, 188, 82);
+    color: white;
+}
+#increase {
+    width: 150px;
+    height: 50px;
+    color: rgb(61, 116, 188);
+    background: transparent;
+    border: 2px solid rgb(61, 116, 188);
+    border-radius: 10px;
+}
+#increase:hover {
+    background-color: rgb(61, 116, 188);
+    color: white;
+}

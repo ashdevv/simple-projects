@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    height: 20px;
+    width: 20px;
+    padding: 5px;
+    margin: 10px 5px;
+}
+a.active{
+    background-color: rgb(30, 235, 30);
+    border-radius: 5px;
+    
+}
+
+a:hover:not(.active){
+    background-color: rgb(190, 189, 189);
+    border-radius: 5px;
+}

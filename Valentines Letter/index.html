@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Valentines Love</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="envelope-wrapper flap">
+        <div class="envelope">
+          <div class="letter">
+            <div class="text">
+              <strong>Dear Kars</strong>
+              <p>
+                Hi Mahal ko, labidabs, love, una sa lahat first of all gusto ko
+                lng mag thankyou i just want to thankyou for everything sa lahat
+                ng pagmamahal na ibinibigay mo sakin for all the love you gave
+                to me. Wala na ko ibang wish kundi ung makasama kita ng habang
+                buhay for the rest of my life. ILOVEYOUUUUUU!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="heart"></div>
+      </div>
+    </div>
+    <script>
+      const envelope = document.querySelector(".envelope-wrapper");
+      envelope.addEventListener("click", () => {
+        envelope.classList.toggle("flap");
+      });
+    </script>
+  </body>
+</html>
